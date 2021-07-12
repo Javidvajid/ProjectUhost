@@ -48,9 +48,6 @@ Start-Hosting Page
 
 Just download the zipped file and double click on the `index.html` file in root folder in order to open it in your default browser or go through the live demo given below.
 
-# Live demo
-
-- [Run Project here](https://javidvajid.github.io/ProjectUhost/)
 
 # Acknowledgements
 
