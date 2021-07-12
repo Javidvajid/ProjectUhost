@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900;1,100&display=swap');
+#product-overview {
+    background: radial-gradient(at bottom, rgba(0, 0, 0, 0.9) 10%, transparent), url(images/freedom.jpg) left 50% top 5%/cover no-repeat;
+    height: 50vh;
+}
+
+#product-overview h1 {
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+
+.section-title {
+    color: #2ddf5c;
+    text-align: center;
+}
+
+.plan {
+    background: #d5ffdc;
+    margin-top: 0.5rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plan__title {
+    color: #0e4f1f;
+    font-size: 1.17rem;
+    font-weight: 700;
+}
+
+.plan__price {
+    color: #ccc;
+    font-size: 1.5rem;
+}
+
+.plan h3 {
+    text-align: center;
+}
+
+.plan__features {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0px;
+}
+
+.plan__feature {
+    margin: 0.6rem;
+}
+
+.plan--highlighted {
+    background: #19b84c;
+    color: white;
+}
+
+.plan__annotation {
+    background: white;
+    color: #19b84c;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.plan--highlighted .plan__title {
+    color: white;
+}
+
+.plan--highlighted .plan__price {
+    color: #0e4f1f;
+}
+
+.button {
+    margin: 1rem 0;
+}
+
+.key--features {
+    background: #ff1b68;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.key--features .section--title {
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.key--feature__list {
+    list-style: none;
+    padding: 0;
+}
+
+.key--feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: top;
+}
+
+.key--feature__image {
+    background: #ffcede;
+    width: 8rem;
+    height: 8rem;
+    border: 2px solid #424242;
+    border-radius: 50%;
+    padding: 1.5rem;
+}
+
+.key--feature__description {
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+}
+
+@media (min-width: 40rem) {
+    #product-overview {
+        height: 80vh;
+        background-position: 40% 10%;
+    }
+    #product-overview h1 {
+        font-size: 2rem;
+        top: 70%;
+        left: 5%;
+        min-width: 23.5rem;
+    }
+    .section--title {
+        min-width: 20.3rem;
+    }
+    .plan-list {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .plan {
+        width: 30%;
+        height: 28rem;
+        justify-content: space-around;
+    }
+    .plan--highlighted {
+        height: 30rem;
+        box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.3);
+    }
+    .key--feature__list {
+        display: flex;
+        justify-content: center;
+    }
+    .key--feature {
+        width: 30%;
+        max-width: 25rem;
+    }
+}
