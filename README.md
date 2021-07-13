@@ -34,7 +34,7 @@ Start-Hosting Page
 
   ![Customers Page](screenshots/customers-page.png)
 
-- Start Hhosting Page
+- Start Hosting Page
 
 ![Start Hosting Page](screenshots/starthosting-page.png)
 
