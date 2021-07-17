@@ -1,6 +1,6 @@
 # ProjectUHost
 
-ProjectUHost is a fictional web hosting company website which i built when i was learning html and css. This project is developed by using vanilla css, html and javascript
+ProjectUHost is a fictional web hosting company responsive website which i built when i was learning html and css. This project is developed by using vanilla css, html and javascript
 
 # Features
 
